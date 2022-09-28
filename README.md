@@ -63,11 +63,15 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  checked on the server logs and found there was an error on the create method
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  checked on the developer tools and found its a response fetch error then looked on the controller and found issue was on the update method
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+checked the browser found its an error 404
+then looked at the sever logs and found that it was an issue with the routes
